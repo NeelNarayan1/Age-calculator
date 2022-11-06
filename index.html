@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="age.css">
+</head>
+<body id = "model">
+    <!-- <div id = "card">
+        <div class = "date"><h4>Day:</h4><input id = "Day" type = number></div>
+        <div class = "date"><h4>Month:</h4><input id = "Month" type = text></div>
+        <div class = "date"><h4>Year:</h4><input id = "Year" type = number><br></div>
+           
+    </div> -->
+    <input type = "date" id = "Date">
+    <button id = "submit">Submit</button>
+<script>
+    // var d = document.getElementById("Day").value
+    // var m = document.getElementById("Month").value
+    // var y = document.getElementById("Year").value
+    // console.log(d)
+    // console.log(m)
+    // console.log(y)
+    var d = document.getElementById("Date").value
+    console.log(d)
+    var date = new Date(d)
+        console.log(date)
+        // document.getElementById("time").innerHTML = date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear();
+    </script>
+</body>
+</html>
